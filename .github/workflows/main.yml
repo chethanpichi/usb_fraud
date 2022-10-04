@@ -11,3 +11,5 @@ jobs:
       
     - name: Pushes test file
       uses: chethanpichi/usb_fraud@main
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
