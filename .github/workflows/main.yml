@@ -8,6 +8,6 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
+      
     - name: Pushes test file
-      uses: chethanpichi/usb_fraud@main    
-
+      uses: chethanpichi/usb_fraud@main
