@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: google-github-actions/setup-gcloud@v0
+      uses: actions/checkout@v2
       
     - name: Pushes test file
       uses: chethanpichi/usb_fraud@main
