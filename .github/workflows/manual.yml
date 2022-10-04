@@ -6,9 +6,9 @@ jobs:
     name: Build
     runs-on: windows-latest
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@main
     - name: copy file
-      uses: canastro/copy-file-action@master
+      uses: canastro/copy-file-action@main
       with:
-        source: "tests/a.txt"
-        target: "test-a.txt"
+        source: "dag/dag_test.py"
+        target: "dag_test_1.py"
