@@ -8,14 +8,4 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
-      
-    - name: Pushes test file
-      uses: chethanpichi/usb_fraud@main
-      env:
-        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
-      with:
-        source_file: 'README.md'
-        destination_repo: 'chethanpichi/simplilearn'
-        user_email: 'example@email.com'
-        user_name: 'dmnemec'
-        commit_message: 'A custom message for the commit'
+
