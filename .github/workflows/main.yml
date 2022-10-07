@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: run the code
-        run: echo this is my first step .
+        run: mkdir file1 .
